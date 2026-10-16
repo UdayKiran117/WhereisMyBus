@@ -1,0 +1,12 @@
+USE where_is_my_bus;
+CREATE INDEX ix_bus_active ON bus_master(is_active,registration_number);
+CREATE INDEX ix_assignment_driver ON bus_driver_assignment(driver_id,is_active,valid_from,valid_to);
+CREATE INDEX ix_assignment_bus ON bus_driver_assignment(bus_id,is_active);
+CREATE INDEX ix_bus_route_lookup ON bus_route_assignment(route_id,is_active,bus_id);
+CREATE INDEX ix_stop_lookup ON route_stops(location_id,route_id,stop_order);
+CREATE INDEX ix_sessions_bus_time ON tracking_sessions(bus_id,started_at);
+CREATE INDEX ix_history_bus_time ON bus_location_history(bus_id,gps_timestamp);
+CREATE INDEX ix_history_retention ON bus_location_history(received_at);
+CREATE INDEX ix_token_family ON user_refresh_tokens(family_id,revoked_at);
+CREATE INDEX ix_token_expiry ON user_refresh_tokens(expires_at);
+CREATE INDEX ix_audit_time ON application_audit_logs(occurred_at);

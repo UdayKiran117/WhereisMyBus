@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="24777ab9-625d-4c07-8da0-3a1f956db1bd" name="@3328866bd20a 2026-10-13 14:18:39" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-13T14:18:39.7570713+02:00" queuing="2026-10-13T14:18:39.7570714+02:00" start="2026-10-13T14:18:37.9726435+02:00" finish="2026-10-13T14:18:39.7923618+02:00" />
+  <TestSettings name="default" id="11369292-1ea3-46a0-898d-b7f9c99c4d2c">
+    <Deployment runDeploymentRoot="_3328866bd20a_2026-10-13_14_18_39" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="3397280e-b56f-41da-a805-013b60d0f7b6" testId="6d63f1e9-0a54-0f4b-1547-e34a409061b7" testName="WhereIsMyBus.IntegrationTests.ApiTests.App_info_truthfully_disables_driver_tracking" computerName="3328866bd20a" duration="00:00:00.0176136" startTime="2026-10-13T14:18:39.4783267+02:00" endTime="2026-10-13T14:18:39.4982195+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3397280e-b56f-41da-a805-013b60d0f7b6" />
+    <UnitTestResult executionId="2eadd107-932c-47bc-8563-a28fe429efc8" testId="258ff175-da0d-2e81-0965-edc2734776f7" testName="WhereIsMyBus.IntegrationTests.ApiTests.Unknown_registration_returns_empty_array" computerName="3328866bd20a" duration="00:00:00.0405558" startTime="2026-10-13T14:18:39.4302059+02:00" endTime="2026-10-13T14:18:39.4704374+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2eadd107-932c-47bc-8563-a28fe429efc8" />
+    <UnitTestResult executionId="6e4e380b-96d3-47d3-83b7-bf9fea18633a" testId="22acdcae-5143-b430-aced-50962079d860" testName="WhereIsMyBus.IntegrationTests.ApiTests.Identical_route_returns_bad_request" computerName="3328866bd20a" duration="00:00:00.4726235" startTime="2026-10-13T14:18:38.7990006+02:00" endTime="2026-10-13T14:18:39.3066180+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e4e380b-96d3-47d3-83b7-bf9fea18633a" />
+    <UnitTestResult executionId="338c9053-6b9b-4fb8-92ff-81923a1db81d" testId="884161f1-a9bb-0969-af0f-58e8b390dba8" testName="WhereIsMyBus.IntegrationTests.ApiTests.Swagger_is_available_in_development" computerName="3328866bd20a" duration="00:00:00.1202593" startTime="2026-10-13T14:18:39.3219542+02:00" endTime="2026-10-13T14:18:39.4293704+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="338c9053-6b9b-4fb8-92ff-81923a1db81d" />
+    <UnitTestResult executionId="3f8a41d9-f6d5-45f9-ad29-bd09c39c089f" testId="101bbc97-5fd5-52b0-520a-7a982f723518" testName="WhereIsMyBus.IntegrationTests.ApiTests.Empty_search_returns_problem_details" computerName="3328866bd20a" duration="00:00:00.0070440" startTime="2026-10-13T14:18:39.4706438+02:00" endTime="2026-10-13T14:18:39.4781447+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f8a41d9-f6d5-45f9-ad29-bd09c39c089f" />
+    <UnitTestResult executionId="b111c5f1-60c1-4f04-b96b-8b1fcc4ff931" testId="eace166f-7c91-2fc2-0cc5-22a15105bb15" testName="WhereIsMyBus.IntegrationTests.ApiTests.Public_search_returns_contract" computerName="3328866bd20a" duration="00:00:00.0077013" startTime="2026-10-13T14:18:39.4984079+02:00" endTime="2026-10-13T14:18:39.5051605+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b111c5f1-60c1-4f04-b96b-8b1fcc4ff931" />
+    <UnitTestResult executionId="32bec846-c0ca-41aa-b7b4-703cc1d8b75d" testId="42e19846-d609-1c86-defe-174a73df2e47" testName="WhereIsMyBus.IntegrationTests.ApiTests.Live_health_does_not_require_database" computerName="3328866bd20a" duration="00:00:00.0078101" startTime="2026-10-13T14:18:39.5053292+02:00" endTime="2026-10-13T14:18:39.5134802+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32bec846-c0ca-41aa-b7b4-703cc1d8b75d" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="WhereIsMyBus.IntegrationTests.ApiTests.App_info_truthfully_disables_driver_tracking" storage="/workspace/scratch/5c7ed624b258/whereismybus/server/tests/whereismybus.integrationtests/bin/debug/net10.0/whereismybus.integrationtests.dll" id="6d63f1e9-0a54-0f4b-1547-e34a409061b7">
+      <Execution id="3397280e-b56f-41da-a805-013b60d0f7b6" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Server/tests/WhereIsMyBus.IntegrationTests/bin/Debug/net10.0/WhereIsMyBus.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.IntegrationTests.ApiTests" name="App_info_truthfully_disables_driver_tracking" />
+    </UnitTest>
+    <UnitTest name="WhereIsMyBus.IntegrationTests.ApiTests.Empty_search_returns_problem_details" storage="/workspace/scratch/5c7ed624b258/whereismybus/server/tests/whereismybus.integrationtests/bin/debug/net10.0/whereismybus.integrationtests.dll" id="101bbc97-5fd5-52b0-520a-7a982f723518">
+      <Execution id="3f8a41d9-f6d5-45f9-ad29-bd09c39c089f" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Server/tests/WhereIsMyBus.IntegrationTests/bin/Debug/net10.0/WhereIsMyBus.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.IntegrationTests.ApiTests" name="Empty_search_returns_problem_details" />
+    </UnitTest>
+    <UnitTest name="WhereIsMyBus.IntegrationTests.ApiTests.Swagger_is_available_in_development" storage="/workspace/scratch/5c7ed624b258/whereismybus/server/tests/whereismybus.integrationtests/bin/debug/net10.0/whereismybus.integrationtests.dll" id="884161f1-a9bb-0969-af0f-58e8b390dba8">
+      <Execution id="338c9053-6b9b-4fb8-92ff-81923a1db81d" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Server/tests/WhereIsMyBus.IntegrationTests/bin/Debug/net10.0/WhereIsMyBus.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.IntegrationTests.ApiTests" name="Swagger_is_available_in_development" />
+    </UnitTest>
+    <UnitTest name="WhereIsMyBus.IntegrationTests.ApiTests.Unknown_registration_returns_empty_array" storage="/workspace/scratch/5c7ed624b258/whereismybus/server/tests/whereismybus.integrationtests/bin/debug/net10.0/whereismybus.integrationtests.dll" id="258ff175-da0d-2e81-0965-edc2734776f7">
+      <Execution id="2eadd107-932c-47bc-8563-a28fe429efc8" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Server/tests/WhereIsMyBus.IntegrationTests/bin/Debug/net10.0/WhereIsMyBus.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.IntegrationTests.ApiTests" name="Unknown_registration_returns_empty_array" />
+    </UnitTest>
+    <UnitTest name="WhereIsMyBus.IntegrationTests.ApiTests.Live_health_does_not_require_database" storage="/workspace/scratch/5c7ed624b258/whereismybus/server/tests/whereismybus.integrationtests/bin/debug/net10.0/whereismybus.integrationtests.dll" id="42e19846-d609-1c86-defe-174a73df2e47">
+      <Execution id="32bec846-c0ca-41aa-b7b4-703cc1d8b75d" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Server/tests/WhereIsMyBus.IntegrationTests/bin/Debug/net10.0/WhereIsMyBus.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.IntegrationTests.ApiTests" name="Live_health_does_not_require_database" />
+    </UnitTest>
+    <UnitTest name="WhereIsMyBus.IntegrationTests.ApiTests.Public_search_returns_contract" storage="/workspace/scratch/5c7ed624b258/whereismybus/server/tests/whereismybus.integrationtests/bin/debug/net10.0/whereismybus.integrationtests.dll" id="eace166f-7c91-2fc2-0cc5-22a15105bb15">
+      <Execution id="b111c5f1-60c1-4f04-b96b-8b1fcc4ff931" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Server/tests/WhereIsMyBus.IntegrationTests/bin/Debug/net10.0/WhereIsMyBus.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.IntegrationTests.ApiTests" name="Public_search_returns_contract" />
+    </UnitTest>
+    <UnitTest name="WhereIsMyBus.IntegrationTests.ApiTests.Identical_route_returns_bad_request" storage="/workspace/scratch/5c7ed624b258/whereismybus/server/tests/whereismybus.integrationtests/bin/debug/net10.0/whereismybus.integrationtests.dll" id="22acdcae-5143-b430-aced-50962079d860">
+      <Execution id="6e4e380b-96d3-47d3-83b7-bf9fea18633a" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Server/tests/WhereIsMyBus.IntegrationTests/bin/Debug/net10.0/WhereIsMyBus.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.IntegrationTests.ApiTests" name="Identical_route_returns_bad_request" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="6d63f1e9-0a54-0f4b-1547-e34a409061b7" executionId="3397280e-b56f-41da-a805-013b60d0f7b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="258ff175-da0d-2e81-0965-edc2734776f7" executionId="2eadd107-932c-47bc-8563-a28fe429efc8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22acdcae-5143-b430-aced-50962079d860" executionId="6e4e380b-96d3-47d3-83b7-bf9fea18633a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="884161f1-a9bb-0969-af0f-58e8b390dba8" executionId="338c9053-6b9b-4fb8-92ff-81923a1db81d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="101bbc97-5fd5-52b0-520a-7a982f723518" executionId="3f8a41d9-f6d5-45f9-ad29-bd09c39c089f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eace166f-7c91-2fc2-0cc5-22a15105bb15" executionId="b111c5f1-60c1-4f04-b96b-8b1fcc4ff931" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42e19846-d609-1c86-defe-174a73df2e47" executionId="32bec846-c0ca-41aa-b7b4-703cc1d8b75d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.0.2+dd36e86129 (64-bit .NET 10.0.12)
+[xUnit.net 00:00:00.12]   Discovering: WhereIsMyBus.IntegrationTests
+[xUnit.net 00:00:00.17]   Discovered:  WhereIsMyBus.IntegrationTests
+[xUnit.net 00:00:00.20]   Starting:    WhereIsMyBus.IntegrationTests
+{"EventId":0,"LogLevel":"Information","Category":"Microsoft.Hosting.Lifetime","Message":"Application started. Press Ctrl\u002BC to shut down.","State":{"{OriginalFormat}":"Application started. Press Ctrl\u002BC to shut down."}}
+{"EventId":0,"LogLevel":"Information","Category":"Microsoft.Hosting.Lifetime","Message":"Hosting environment: Development","State":{"EnvName":"Development","{OriginalFormat}":"Hosting environment: {EnvName}"}}
+{"EventId":0,"LogLevel":"Information","Category":"Microsoft.Hosting.Lifetime","Message":"Content root path: /workspace/scratch/5c7ed624b258/WhereIsMyBus/Server/src/WhereIsMyBus.API","State":{"ContentRoot":"/workspace/scratch/5c7ed624b258/WhereIsMyBus/Server/src/WhereIsMyBus.API","{OriginalFormat}":"Content root path: {ContentRoot}"}}
+{"EventId":0,"LogLevel":"Information","Category":"Microsoft.Hosting.Lifetime","Message":"Application is shutting down...","State":{"{OriginalFormat}":"Application is shutting down..."}}
+[xUnit.net 00:00:01.01]   Finished:    WhereIsMyBus.IntegrationTests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="WhereIsMyBus.Mobile.App">
+<Application.Resources><ResourceDictionary>
+<Color x:Key="Primary">#0866F5</Color><Color x:Key="Ink">#172033</Color>
+<Style TargetType="ContentPage"><Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#F7F9FC, Dark=#101827}" /></Style>
+<Style TargetType="Label"><Setter Property="TextColor" Value="{AppThemeBinding Light=#172033, Dark=#F4F7FC}"/><Setter Property="FontSize" Value="17"/></Style>
+<Style TargetType="Entry"><Setter Property="TextColor" Value="{AppThemeBinding Light=#172033, Dark=#F4F7FC}"/><Setter Property="MinimumHeightRequest" Value="56"/><Setter Property="FontSize" Value="18"/></Style>
+<Style TargetType="Picker"><Setter Property="TextColor" Value="{AppThemeBinding Light=#172033, Dark=#F4F7FC}"/><Setter Property="MinimumHeightRequest" Value="56"/><Setter Property="FontSize" Value="18"/></Style>
+<Style TargetType="Button"><Setter Property="BackgroundColor" Value="{StaticResource Primary}"/><Setter Property="TextColor" Value="White"/><Setter Property="CornerRadius" Value="16"/><Setter Property="MinimumHeightRequest" Value="56"/><Setter Property="FontSize" Value="18"/><Setter Property="FontAttributes" Value="Bold"/></Style>
+<Style TargetType="Border" x:Key="Card"><Setter Property="BackgroundColor" Value="{AppThemeBinding Light=White, Dark=#1D293B}"/><Setter Property="Stroke" Value="{AppThemeBinding Light=#E3E9F2, Dark=#344156}"/><Setter Property="Padding" Value="20"/><Setter Property="StrokeShape"><Setter.Value><RoundRectangle CornerRadius="20"/></Setter.Value></Setter></Style>
+</ResourceDictionary></Application.Resources></Application>

@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0-android</TargetFramework>
+        <OutputType>Exe</OutputType>
+        <RootNamespace>WhereIsMyBus.Mobile</RootNamespace>
+
+        <UseMaui>true</UseMaui>
+        <SingleProject>true</SingleProject>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <ApplicationTitle>Where Is My Bus</ApplicationTitle>
+        <ApplicationId>com.whereismybus.mobile</ApplicationId>
+        <ApplicationDisplayVersion>0.1.0</ApplicationDisplayVersion>
+        <ApplicationVersion>1</ApplicationVersion>
+
+        <SupportedOSPlatformVersion>24.0</SupportedOSPlatformVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- Application launcher icon -->
+		<MauiIcon Include="Resources\AppIcon\bus_icon.png" Color="#FFFFFF" BaseSize="1024,1024" Resize="True" />
+
+		<!--<MauiSplashScreen
+			Include="Resources\AppIcon\bus_icon.png"
+			Color="#FFFFFF"
+			BaseSize="128,128"
+			Resize="True" />-->
+
+        <!-- Images used inside pages -->
+        <MauiImage Include="Resources\Images\*" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\WhereIsMyBus.Mobile.Core\WhereIsMyBus.Mobile.Core.csproj" />
+
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.13" />
+
+        <PackageReference Include="Microsoft.Maui.Controls" Version="10.0.20" />
+
+        <PackageReference Include="Microsoft.Extensions.Http" Version="10.0.13" />
+
+        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.0" />
+
+        <PackageReference Include="Microsoft.Maui.Graphics" Version="10.0.110" />
+
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="WhereIsMyBus.Domain">
+            <HintPath>..\..\..\Server\src\WhereIsMyBus.Domain\bin\Debug\net10.0\WhereIsMyBus.Domain.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <MauiXaml Update="Views\DriverDashboardPage.xaml">
+            <Generator>MSBuild:Compile</Generator>
+        </MauiXaml>
+
+        <None Update="appsettings.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+</Project>

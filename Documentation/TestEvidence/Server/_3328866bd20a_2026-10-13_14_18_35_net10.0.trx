@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="87d09e4a-9f33-4385-af99-7297d7b6179b" name="@3328866bd20a 2026-10-13 14:18:35" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-13T14:18:35.1643704+02:00" queuing="2026-10-13T14:18:35.1643705+02:00" start="2026-10-13T14:18:34.0935965+02:00" finish="2026-10-13T14:18:35.1712594+02:00" />
+  <TestSettings name="default" id="cb7fcdce-4154-446c-812e-0a81fce912fa">
+    <Deployment runDeploymentRoot="_3328866bd20a_2026-10-13_14_18_35" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="8b21229d-41d8-4c34-ab2e-d6dea554421e" testId="5080a2eb-d8e0-42dd-f0d8-de1159915eea" testName="WhereIsMyBus.ArchitectureTests.DependencyTests.Contracts_do_not_reference_other_server_projects" computerName="3328866bd20a" duration="00:00:00.0017352" startTime="2026-10-13T14:18:34.9666337+02:00" endTime="2026-10-13T14:18:34.9672736+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b21229d-41d8-4c34-ab2e-d6dea554421e" />
+    <UnitTestResult executionId="c7e9a428-3df0-4288-87cc-b6cc802ebc0d" testId="871666a5-538b-9f78-27f3-42f55c30a597" testName="WhereIsMyBus.ArchitectureTests.DependencyTests.Domain_has_no_application_infrastructure_or_api_reference" computerName="3328866bd20a" duration="00:00:00.0136119" startTime="2026-10-13T14:18:34.9208999+02:00" endTime="2026-10-13T14:18:34.9474857+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7e9a428-3df0-4288-87cc-b6cc802ebc0d" />
+    <UnitTestResult executionId="c4aebbf2-9c24-451e-bdfc-54e5def1f27a" testId="20d817fe-507a-9df1-7978-a4507dc45a17" testName="WhereIsMyBus.ArchitectureTests.DependencyTests.Application_does_not_reference_infrastructure_or_api" computerName="3328866bd20a" duration="00:00:00.0052379" startTime="2026-10-13T14:18:34.9680174+02:00" endTime="2026-10-13T14:18:34.9680718+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4aebbf2-9c24-451e-bdfc-54e5def1f27a" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="WhereIsMyBus.ArchitectureTests.DependencyTests.Domain_has_no_application_infrastructure_or_api_reference" storage="/workspace/scratch/5c7ed624b258/whereismybus/server/tests/whereismybus.architecturetests/bin/debug/net10.0/whereismybus.architecturetests.dll" id="871666a5-538b-9f78-27f3-42f55c30a597">
+      <Execution id="c7e9a428-3df0-4288-87cc-b6cc802ebc0d" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Server/tests/WhereIsMyBus.ArchitectureTests/bin/Debug/net10.0/WhereIsMyBus.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.ArchitectureTests.DependencyTests" name="Domain_has_no_application_infrastructure_or_api_reference" />
+    </UnitTest>
+    <UnitTest name="WhereIsMyBus.ArchitectureTests.DependencyTests.Application_does_not_reference_infrastructure_or_api" storage="/workspace/scratch/5c7ed624b258/whereismybus/server/tests/whereismybus.architecturetests/bin/debug/net10.0/whereismybus.architecturetests.dll" id="20d817fe-507a-9df1-7978-a4507dc45a17">
+      <Execution id="c4aebbf2-9c24-451e-bdfc-54e5def1f27a" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Server/tests/WhereIsMyBus.ArchitectureTests/bin/Debug/net10.0/WhereIsMyBus.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.ArchitectureTests.DependencyTests" name="Application_does_not_reference_infrastructure_or_api" />
+    </UnitTest>
+    <UnitTest name="WhereIsMyBus.ArchitectureTests.DependencyTests.Contracts_do_not_reference_other_server_projects" storage="/workspace/scratch/5c7ed624b258/whereismybus/server/tests/whereismybus.architecturetests/bin/debug/net10.0/whereismybus.architecturetests.dll" id="5080a2eb-d8e0-42dd-f0d8-de1159915eea">
+      <Execution id="8b21229d-41d8-4c34-ab2e-d6dea554421e" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Server/tests/WhereIsMyBus.ArchitectureTests/bin/Debug/net10.0/WhereIsMyBus.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.ArchitectureTests.DependencyTests" name="Contracts_do_not_reference_other_server_projects" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="5080a2eb-d8e0-42dd-f0d8-de1159915eea" executionId="8b21229d-41d8-4c34-ab2e-d6dea554421e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="871666a5-538b-9f78-27f3-42f55c30a597" executionId="c7e9a428-3df0-4288-87cc-b6cc802ebc0d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20d817fe-507a-9df1-7978-a4507dc45a17" executionId="c4aebbf2-9c24-451e-bdfc-54e5def1f27a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.0.2+dd36e86129 (64-bit .NET 10.0.12)
+[xUnit.net 00:00:00.10]   Discovering: WhereIsMyBus.ArchitectureTests
+[xUnit.net 00:00:00.15]   Discovered:  WhereIsMyBus.ArchitectureTests
+[xUnit.net 00:00:00.18]   Starting:    WhereIsMyBus.ArchitectureTests
+[xUnit.net 00:00:00.27]   Finished:    WhereIsMyBus.ArchitectureTests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

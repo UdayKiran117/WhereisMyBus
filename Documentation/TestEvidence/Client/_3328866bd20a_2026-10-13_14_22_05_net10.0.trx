@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="f482aaea-1ab2-4f4d-9310-3c476c9dc964" name="@3328866bd20a 2026-10-13 14:22:05" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-13T14:22:05.2823184+02:00" queuing="2026-10-13T14:22:05.2823184+02:00" start="2026-10-13T14:22:03.8173707+02:00" finish="2026-10-13T14:22:05.3404635+02:00" />
+  <TestSettings name="default" id="f70ae9c5-7b30-4a81-b25c-48cd1f680d23">
+    <Deployment runDeploymentRoot="_3328866bd20a_2026-10-13_14_22_05" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="a4a75cb8-f4da-4a56-8a69-ac98a75ae249" testId="df2aa7d6-6218-8c06-05d3-f4dab0f89cd7" testName="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Empty_search_shows_validation_and_does_not_call_api" computerName="3328866bd20a" duration="00:00:00.0174804" startTime="2026-10-13T14:22:05.0903839+02:00" endTime="2026-10-13T14:22:05.0905200+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4a75cb8-f4da-4a56-8a69-ac98a75ae249" />
+    <UnitTestResult executionId="103102e6-8d93-46bc-9dde-1bf40c6e17eb" testId="8a84b5f3-5fe7-11c1-3d00-7c5d78c650f1" testName="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Route_search_sends_selected_ids" computerName="3328866bd20a" duration="00:00:00.0143474" startTime="2026-10-13T14:22:05.1109070+02:00" endTime="2026-10-13T14:22:05.1251057+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="103102e6-8d93-46bc-9dde-1bf40c6e17eb" />
+    <UnitTestResult executionId="895595d3-c4b1-493f-a3ed-98b38ebb6803" testId="f961d394-09d7-188e-9592-a81267a3cb20" testName="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Load_locations_populates_selectors" computerName="3328866bd20a" duration="00:00:00.0152865" startTime="2026-10-13T14:22:05.1553056+02:00" endTime="2026-10-13T14:22:05.1703133+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="895595d3-c4b1-493f-a3ed-98b38ebb6803" />
+    <UnitTestResult executionId="2ca10242-ed99-4467-b1c8-bec14fe0d4c7" testId="6ffc293c-6928-f1b9-e632-454d5d182285" testName="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Same_route_location_does_not_call_api" computerName="3328866bd20a" duration="00:00:00.0160357" startTime="2026-10-13T14:22:05.2310641+02:00" endTime="2026-10-13T14:22:05.2311947+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ca10242-ed99-4467-b1c8-bec14fe0d4c7" />
+    <UnitTestResult executionId="e45f6339-becd-47f3-b8fb-141cbdd19bf7" testId="a5c0c8a3-92e9-04b6-0cf1-d1c6c2ebe021" testName="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Invalid_saved_language_falls_back_to_English" computerName="3328866bd20a" duration="00:00:00.0002183" startTime="2026-10-13T14:22:05.2306190+02:00" endTime="2026-10-13T14:22:05.2307530+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e45f6339-becd-47f3-b8fb-141cbdd19bf7" />
+    <UnitTestResult executionId="cfdaacf4-2f97-4ca5-8313-24038f564b0f" testId="5a708c42-edb9-78d2-16db-ebb0f7be0e9c" testName="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Offline_search_does_not_call_api" computerName="3328866bd20a" duration="00:00:00.0105405" startTime="2026-10-13T14:22:05.0919157+02:00" endTime="2026-10-13T14:22:05.0999660+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cfdaacf4-2f97-4ca5-8313-24038f564b0f" />
+    <UnitTestResult executionId="5981dfcf-18d7-4b4a-81d1-0a48c563d038" testId="fc7dd3bb-9851-19f6-080e-1ebe7c2da8e3" testName="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Valid_search_normalizes_number" computerName="3328866bd20a" duration="00:00:00.0145305" startTime="2026-10-13T14:22:05.1402429+02:00" endTime="2026-10-13T14:22:05.1548193+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5981dfcf-18d7-4b4a-81d1-0a48c563d038" />
+    <UnitTestResult executionId="ed12a0e6-765a-4926-b8df-c4d7729feb00" testId="93334451-dec4-7446-1c51-32f231e681bf" testName="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Timeout_returns_error_and_clears_busy_state" computerName="3328866bd20a" duration="00:00:00.1249490" startTime="2026-10-13T14:22:04.9357748+02:00" endTime="2026-10-13T14:22:05.0714160+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed12a0e6-765a-4926-b8df-c4d7729feb00" />
+    <UnitTestResult executionId="9aabf469-7a82-469d-89b1-c6af569f3ddb" testId="96cf250a-0f09-9b6b-079b-759b6afd47af" testName="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Changing_language_updates_labels_and_persists_choice" computerName="3328866bd20a" duration="00:00:00.0073065" startTime="2026-10-13T14:22:05.1705307+02:00" endTime="2026-10-13T14:22:05.1779095+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9aabf469-7a82-469d-89b1-c6af569f3ddb" />
+    <UnitTestResult executionId="297fbbb2-00e3-4b1c-9e3c-db7336407382" testId="06a3e8ab-d3ff-1c59-ba41-5c2e882494cc" testName="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Concurrent_search_is_prevented" computerName="3328866bd20a" duration="00:00:00.0147956" startTime="2026-10-13T14:22:05.1253290+02:00" endTime="2026-10-13T14:22:05.1400215+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="297fbbb2-00e3-4b1c-9e3c-db7336407382" />
+    <UnitTestResult executionId="cc876268-a3df-48a1-9fdd-19f4588bd63f" testId="49f5e138-3ded-e698-5385-fb7e0ae12b08" testName="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.No_results_displays_empty_message" computerName="3328866bd20a" duration="00:00:00.0105342" startTime="2026-10-13T14:22:05.1001962+02:00" endTime="2026-10-13T14:22:05.1106471+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc876268-a3df-48a1-9fdd-19f4588bd63f" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Route_search_sends_selected_ids" storage="/workspace/scratch/5c7ed624b258/whereismybus/client/tests/whereismybus.mobile.unittests/bin/debug/net10.0/whereismybus.mobile.unittests.dll" id="8a84b5f3-5fe7-11c1-3d00-7c5d78c650f1">
+      <Execution id="103102e6-8d93-46bc-9dde-1bf40c6e17eb" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Client/tests/WhereIsMyBus.Mobile.UnitTests/bin/Debug/net10.0/WhereIsMyBus.Mobile.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests" name="Route_search_sends_selected_ids" />
+    </UnitTest>
+    <UnitTest name="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Concurrent_search_is_prevented" storage="/workspace/scratch/5c7ed624b258/whereismybus/client/tests/whereismybus.mobile.unittests/bin/debug/net10.0/whereismybus.mobile.unittests.dll" id="06a3e8ab-d3ff-1c59-ba41-5c2e882494cc">
+      <Execution id="297fbbb2-00e3-4b1c-9e3c-db7336407382" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Client/tests/WhereIsMyBus.Mobile.UnitTests/bin/Debug/net10.0/WhereIsMyBus.Mobile.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests" name="Concurrent_search_is_prevented" />
+    </UnitTest>
+    <UnitTest name="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Valid_search_normalizes_number" storage="/workspace/scratch/5c7ed624b258/whereismybus/client/tests/whereismybus.mobile.unittests/bin/debug/net10.0/whereismybus.mobile.unittests.dll" id="fc7dd3bb-9851-19f6-080e-1ebe7c2da8e3">
+      <Execution id="5981dfcf-18d7-4b4a-81d1-0a48c563d038" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Client/tests/WhereIsMyBus.Mobile.UnitTests/bin/Debug/net10.0/WhereIsMyBus.Mobile.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests" name="Valid_search_normalizes_number" />
+    </UnitTest>
+    <UnitTest name="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Offline_search_does_not_call_api" storage="/workspace/scratch/5c7ed624b258/whereismybus/client/tests/whereismybus.mobile.unittests/bin/debug/net10.0/whereismybus.mobile.unittests.dll" id="5a708c42-edb9-78d2-16db-ebb0f7be0e9c">
+      <Execution id="cfdaacf4-2f97-4ca5-8313-24038f564b0f" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Client/tests/WhereIsMyBus.Mobile.UnitTests/bin/Debug/net10.0/WhereIsMyBus.Mobile.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests" name="Offline_search_does_not_call_api" />
+    </UnitTest>
+    <UnitTest name="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Timeout_returns_error_and_clears_busy_state" storage="/workspace/scratch/5c7ed624b258/whereismybus/client/tests/whereismybus.mobile.unittests/bin/debug/net10.0/whereismybus.mobile.unittests.dll" id="93334451-dec4-7446-1c51-32f231e681bf">
+      <Execution id="ed12a0e6-765a-4926-b8df-c4d7729feb00" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Client/tests/WhereIsMyBus.Mobile.UnitTests/bin/Debug/net10.0/WhereIsMyBus.Mobile.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests" name="Timeout_returns_error_and_clears_busy_state" />
+    </UnitTest>
+    <UnitTest name="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.No_results_displays_empty_message" storage="/workspace/scratch/5c7ed624b258/whereismybus/client/tests/whereismybus.mobile.unittests/bin/debug/net10.0/whereismybus.mobile.unittests.dll" id="49f5e138-3ded-e698-5385-fb7e0ae12b08">
+      <Execution id="cc876268-a3df-48a1-9fdd-19f4588bd63f" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Client/tests/WhereIsMyBus.Mobile.UnitTests/bin/Debug/net10.0/WhereIsMyBus.Mobile.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests" name="No_results_displays_empty_message" />
+    </UnitTest>
+    <UnitTest name="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Invalid_saved_language_falls_back_to_English" storage="/workspace/scratch/5c7ed624b258/whereismybus/client/tests/whereismybus.mobile.unittests/bin/debug/net10.0/whereismybus.mobile.unittests.dll" id="a5c0c8a3-92e9-04b6-0cf1-d1c6c2ebe021">
+      <Execution id="e45f6339-becd-47f3-b8fb-141cbdd19bf7" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Client/tests/WhereIsMyBus.Mobile.UnitTests/bin/Debug/net10.0/WhereIsMyBus.Mobile.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests" name="Invalid_saved_language_falls_back_to_English" />
+    </UnitTest>
+    <UnitTest name="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Same_route_location_does_not_call_api" storage="/workspace/scratch/5c7ed624b258/whereismybus/client/tests/whereismybus.mobile.unittests/bin/debug/net10.0/whereismybus.mobile.unittests.dll" id="6ffc293c-6928-f1b9-e632-454d5d182285">
+      <Execution id="2ca10242-ed99-4467-b1c8-bec14fe0d4c7" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Client/tests/WhereIsMyBus.Mobile.UnitTests/bin/Debug/net10.0/WhereIsMyBus.Mobile.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests" name="Same_route_location_does_not_call_api" />
+    </UnitTest>
+    <UnitTest name="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Changing_language_updates_labels_and_persists_choice" storage="/workspace/scratch/5c7ed624b258/whereismybus/client/tests/whereismybus.mobile.unittests/bin/debug/net10.0/whereismybus.mobile.unittests.dll" id="96cf250a-0f09-9b6b-079b-759b6afd47af">
+      <Execution id="9aabf469-7a82-469d-89b1-c6af569f3ddb" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Client/tests/WhereIsMyBus.Mobile.UnitTests/bin/Debug/net10.0/WhereIsMyBus.Mobile.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests" name="Changing_language_updates_labels_and_persists_choice" />
+    </UnitTest>
+    <UnitTest name="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Load_locations_populates_selectors" storage="/workspace/scratch/5c7ed624b258/whereismybus/client/tests/whereismybus.mobile.unittests/bin/debug/net10.0/whereismybus.mobile.unittests.dll" id="f961d394-09d7-188e-9592-a81267a3cb20">
+      <Execution id="895595d3-c4b1-493f-a3ed-98b38ebb6803" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Client/tests/WhereIsMyBus.Mobile.UnitTests/bin/Debug/net10.0/WhereIsMyBus.Mobile.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests" name="Load_locations_populates_selectors" />
+    </UnitTest>
+    <UnitTest name="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests.Empty_search_shows_validation_and_does_not_call_api" storage="/workspace/scratch/5c7ed624b258/whereismybus/client/tests/whereismybus.mobile.unittests/bin/debug/net10.0/whereismybus.mobile.unittests.dll" id="df2aa7d6-6218-8c06-05d3-f4dab0f89cd7">
+      <Execution id="a4a75cb8-f4da-4a56-8a69-ac98a75ae249" />
+      <TestMethod codeBase="/workspace/scratch/5c7ed624b258/WhereIsMyBus/Client/tests/WhereIsMyBus.Mobile.UnitTests/bin/Debug/net10.0/WhereIsMyBus.Mobile.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="WhereIsMyBus.Mobile.UnitTests.SearchViewModelTests" name="Empty_search_shows_validation_and_does_not_call_api" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="df2aa7d6-6218-8c06-05d3-f4dab0f89cd7" executionId="a4a75cb8-f4da-4a56-8a69-ac98a75ae249" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a84b5f3-5fe7-11c1-3d00-7c5d78c650f1" executionId="103102e6-8d93-46bc-9dde-1bf40c6e17eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f961d394-09d7-188e-9592-a81267a3cb20" executionId="895595d3-c4b1-493f-a3ed-98b38ebb6803" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ffc293c-6928-f1b9-e632-454d5d182285" executionId="2ca10242-ed99-4467-b1c8-bec14fe0d4c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5c0c8a3-92e9-04b6-0cf1-d1c6c2ebe021" executionId="e45f6339-becd-47f3-b8fb-141cbdd19bf7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a708c42-edb9-78d2-16db-ebb0f7be0e9c" executionId="cfdaacf4-2f97-4ca5-8313-24038f564b0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc7dd3bb-9851-19f6-080e-1ebe7c2da8e3" executionId="5981dfcf-18d7-4b4a-81d1-0a48c563d038" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93334451-dec4-7446-1c51-32f231e681bf" executionId="ed12a0e6-765a-4926-b8df-c4d7729feb00" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96cf250a-0f09-9b6b-079b-759b6afd47af" executionId="9aabf469-7a82-469d-89b1-c6af569f3ddb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06a3e8ab-d3ff-1c59-ba41-5c2e882494cc" executionId="297fbbb2-00e3-4b1c-9e3c-db7336407382" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49f5e138-3ded-e698-5385-fb7e0ae12b08" executionId="cc876268-a3df-48a1-9fdd-19f4588bd63f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.0.2+dd36e86129 (64-bit .NET 10.0.12)
+[xUnit.net 00:00:00.14]   Discovering: WhereIsMyBus.Mobile.UnitTests
+[xUnit.net 00:00:00.20]   Discovered:  WhereIsMyBus.Mobile.UnitTests
+[xUnit.net 00:00:00.24]   Starting:    WhereIsMyBus.Mobile.UnitTests
+[xUnit.net 00:00:00.57]   Finished:    WhereIsMyBus.Mobile.UnitTests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
