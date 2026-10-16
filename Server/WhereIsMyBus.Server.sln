@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 18
+VisualStudioVersion = 18.7.11925.98 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhereIsMyBus.API", "src\WhereIsMyBus.API\WhereIsMyBus.API.csproj", "{F35DE465-F787-5F4E-916D-0F5A5554C977}"
 EndProject
@@ -17,6 +17,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhereIsMyBus.IntegrationTests", "tests\WhereIsMyBus.IntegrationTests\WhereIsMyBus.IntegrationTests.csproj", "{21E4CC31-9AD6-5CC3-A052-A4A14090D1DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhereIsMyBus.UnitTests", "tests\WhereIsMyBus.UnitTests\WhereIsMyBus.UnitTests.csproj", "{B74A4BB3-FB05-50EC-A32A-4BDD73D6467A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhereisMyBus.DTO", "WhereisMyBus.DTO\WhereisMyBus.DTO.csproj", "{3F6F7322-C9AD-4655-908D-BB9452D53348}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,5 +58,15 @@ Global
 		{B74A4BB3-FB05-50EC-A32A-4BDD73D6467A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B74A4BB3-FB05-50EC-A32A-4BDD73D6467A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B74A4BB3-FB05-50EC-A32A-4BDD73D6467A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F6F7322-C9AD-4655-908D-BB9452D53348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F6F7322-C9AD-4655-908D-BB9452D53348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F6F7322-C9AD-4655-908D-BB9452D53348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F6F7322-C9AD-4655-908D-BB9452D53348}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0469DA1A-2CF2-4521-B330-09059A40E9CF}
 	EndGlobalSection
 EndGlobal
